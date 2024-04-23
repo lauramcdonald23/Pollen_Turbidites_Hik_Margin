@@ -7,7 +7,7 @@ library(MASS)
 library(openxlsx)
 
 # Read your dataset (replace 'your_data.csv' with the actual file path)
-data <- read.csv("TAN1613_47_GG.csv", header = TRUE)
+data <- read.csv("TAN1613_47.csv", header = TRUE)
 
 # Define the dependent variables (species columns) as a matrix
 species_data <- as.matrix(data[, -1])  # Exclude the 'Sample depth' column
